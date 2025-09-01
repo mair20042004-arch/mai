@@ -49,11 +49,11 @@ $students = [
     <h2>Students Table : </h2>
 <table border="1" style="margin:0 auto; text-align: center; font-size: 10px; background-color: #D8BFD8">
     <tr>
-        <th>ID</th>
+        <th>Student ID</th>
         <th>Name</th>
         <th>Email</th>
         <th>GAP</th>
-        <th>Delete</th>
+        <th>Action</th>
    </tr>
    <?php foreach($students as $row): ?>
             <tr>
@@ -73,4 +73,5 @@ function deleteRow(button) {
 </script>
 <p> Total Number of Students = 5</p>
 </body>
+
 </html>
